@@ -12,8 +12,8 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
     - [ ] Automatic!
   
 - [ ] Economy
-  - [ ] Give Coins Randomly
-  - [ ] Job
+  - [x] Give Coins Randomly
+  - [ ] Jobs?
   - [ ] Pay Command
   - [ ] Balance
   
