@@ -31,6 +31,13 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Player Wins/Loss
   - [ ] W/L Ratio
   - [ ] Profile Card (Hire Someone??)
+  
+- [ ] MongoDB
+  - [ ] Make a template
+  - [ ] Classess
+  - [ ] Inventory
+  - [ ] Level Etc
+  - [ ] Mongo Grabber
  
 - [ ] Patreon
   - [ ] Set One Up?
