@@ -5,7 +5,14 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-const { prefix, token } = require('./config.json');
+const { prefix, token, mongoPass } = require('./config.json');
+
+const mongoose = require('mongoose');
+mongoose.connect(mongoPass, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
+const Coins = require('./models/coins.js');
 
 client.once('ready', () => {
     console.log('Ready!');
@@ -20,7 +27,39 @@ for(const file of commandFiles) {
 
 client.on('message', message =>{
 
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+    if(!message.content.startsWith(prefix) || message.author.bot) {
+        console.log(message.content);
+
+        const chance = Math.floor(Math.random() * 100) + 1;
+        console.log(chance);
+    if (chance > 75) {
+      // here is where the coins are added.
+
+      const coinstoadd = Math.ceil(Math.random() * 10) + 5;
+
+      Coins.findOne({
+        userID: message.author.id,
+        serverID: message.guild.id,
+      }, (err, res) => {
+        if(err) console.log(err);
+
+        if(!res) {
+          const newDoc = new Coins({
+            userID: message.author.id,
+            username: message.author.username,
+            serverID: message.guild.id,
+            coins: coinstoadd,
+          });
+          newDoc.save().catch(err => console.log(err));
+        }
+else{
+          res.coins = res.coins + coinstoadd;
+          res.save().catch(err => console.log(err));
+        }
+      });
+    }
+
+    }
     const args = message.content.slice(prefix.length).trim().split(/ +/);
     const command = args.shift().toLowerCase();
 
