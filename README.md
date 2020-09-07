@@ -16,3 +16,24 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Job
   - [ ] Pay Command
   - [ ] Balance
+  
+- [ ] Classess (Feel Free To Suggest In Comments)
+  - [ ] Warrior
+  - [ ] Archer
+  - [ ] Mage
+  - [ ] Musketeer
+
+- [ ] Player Stats
+  - [ ] Player Name
+  - [ ] Level
+  - [ ] Player Kills/Death
+  - [ ] K/D Ratio
+  - [ ] Player Wins/Loss
+  - [ ] W/L Ratio
+  - [ ] Profile Card (Hire Someone??)
+ 
+ - [ ] Patreon
+  - [ ] Set One Up?
+  - [ ] Special Perks?
+    - [ ] 2x Xp + Coins?
+  - [ ] Get Dev Team??
