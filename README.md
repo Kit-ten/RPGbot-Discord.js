@@ -32,7 +32,7 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] W/L Ratio
   - [ ] Profile Card (Hire Someone??)
  
- - [ ] Patreon
+- [ ] Patreon
   - [ ] Set One Up?
   - [ ] Special Perks?
     - [ ] 2x Xp + Coins?
