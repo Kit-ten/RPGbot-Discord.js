@@ -23,14 +23,15 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Mage
   - [ ] Musketeer
 
-- [ ] Player Stats
+- [ ] Profile
   - [ ] Player Name
   - [ ] Level
   - [ ] Player Kills/Death
   - [ ] K/D Ratio
   - [ ] Player Wins/Loss
   - [ ] W/L Ratio
-  - [ ] Profile Card (Hire Someone??)
+  - [ ] Profile Card Art(Hire Someone??)
+  - [x] Traits
   
 - [ ] MongoDB
   - [ ] Make a template
@@ -53,7 +54,7 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Leveling
     - [ ] Max Level?
     - [ ] Xp Gaining?
-  - [ ] Traits!
+  - [x] Traits!
  
 - [ ] Patreon
   - [ ] Set One Up?
