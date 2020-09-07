@@ -33,12 +33,12 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Profile Card Art(Hire Someone??)
   - [x] Traits
   
-- [ ] MongoDB
-  - [ ] Make a template
-  - [ ] Classess
-  - [ ] Inventory
-  - [ ] Level Etc
-  - [ ] Mongo Grabber
+- [x] MongoDB
+  - [x] Make a template
+  - [x] Classess
+  - [x] Inventory
+  - [x] Level Etc
+  - [x] Mongo Grabber
   
 - [ ] Pets
   - [ ] Types O fPets
