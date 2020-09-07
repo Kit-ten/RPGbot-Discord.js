@@ -38,6 +38,22 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Inventory
   - [ ] Level Etc
   - [ ] Mongo Grabber
+  
+- [ ] Pets
+  - [ ] Types O fPets
+  - [ ] How To Get Pets
+  - [ ] Database Of Pets
+  - [ ] Raritys:
+    - [ ] Common?
+    - [ ] Legendary?
+    - [ ] Rare?
+    - [ ] Epic?
+    - [ ] Uncommon
+    - [ ] Exotic?
+  - [ ] Leveling
+    - [ ] Max Level?
+    - [ ] Xp Gaining?
+  - [ ] Traits!
  
 - [ ] Patreon
   - [ ] Set One Up?
