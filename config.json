@@ -1,4 +1,5 @@
 {
     "prefix": "!",
-    "token": "Insert-Token-Here"
+    "token": "insert-token-here",
+    "mongoPass": "MongoPass Password etc etc"
 }
