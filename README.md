@@ -6,7 +6,7 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
 - [ ] Important!
   - [x] Make The Bot User
   - [x] Make a Config File
-  - [ ] Command Handler (NEEDED ASAP)
+  - [x] Command Handler (NEEDED ASAP)
   - [ ] Help Command
     - [ ] Manual (For Now)
     - [ ] Automatic!
