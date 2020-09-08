@@ -28,10 +28,9 @@ for(const file of commandFiles) {
 client.on('message', message =>{
 
     if(!message.content.startsWith(prefix) || message.author.bot) {
-        console.log(message.content);
 
         const chance = Math.floor(Math.random() * 100) + 1;
-        console.log(chance);
+        console.log(chance + ' ' + message.content);
     if (chance > 75) {
       // here is where the coins are added.
 
