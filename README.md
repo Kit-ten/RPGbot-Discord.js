@@ -16,6 +16,8 @@ Join the support and development server [here](https://discord.gg/7smbQAM)
   - [ ] Jobs?
   - [ ] Pay Command
   - [ ] Balance
+    - [x] View Your Balance
+    - [ ] View Others
   
 - [ ] Classess (Feel Free To Suggest In Comments)
   - [ ] Warrior
